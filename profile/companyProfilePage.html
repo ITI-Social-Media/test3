@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groups</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header id="getHeader">
+
+    </header>
+    <script src="js/header.js"></script>
+    <div class="container" id="con">
+        <div style="width: 100%;"> <br></div>
+        <div class="row">
+            <div class="col-sm-8 mt-3 ">
+                <div class="card card-custom bg-white border-white border-0 boo" style="max-height: 355px;">
+                    <div class="card-custom-img-com" style="background-image:url(bg.jpg);"></div>
+                    <div class="card-custom-avatar" style="border-radius: 0%;">
+                        <img class="img-fluid" src="iti-logo-1.png" style="border-radius: 0%; background-color: white;">
+                    </div>
+                    <div class="card-body mt-5" style="overflow-y: auto; padding-bottom: 0px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">Card has minimum height set but will expand<br>
+                                        <button type="button" class="btn btn-primary"
+                                            style="border-radius: 15px; margin-top: 8px;">Primary</button>
+                                        <button type="button" class="btn btn-outline-primary"
+                                            style="border-radius: 15px;margin-top: 8px;">Primary</button>
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr style="margin-bottom: 0;">
+                    <lu id="sNav" class="d-flex justify-content-center">
+                        <li onclick="home()">Home</li>
+                        <li onclick="about()">About</li>
+                        <li onclick="post()">Posts</li>
+                        <li onclick="people()">People</li>
+                    </lu>
+                </div>
+                <section id="home" style="display: block;">
+                    <div class="card mt-3 boo" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-subtitle mb-2 text-muted">About</h5>
+                            <p class="card-text" style="font-size:14px;margin-top: 2%;">Passionate and enthusiastic
+                                Logistics
+                                professional With nearly 9 years of experience in Logistics management field
+                                (warehousing - stock control
+                                - Transportation - dispatch - customs clearance), currently I'm studying supply chain
+                                MicroMasters
+                                provided by MIT and preparing for my first international certification - APICS CLTD </p>
+                            <!-- <a class="d-flex"><div>a</div><div>2</div></a> -->
+                            <hr style="margin-bottom: 0;">
+                            <div style="text-align: center;color: black;"><a onclick="about()">more</a></div>
+                        </div>
+                    </div>
+                    <div class="card mt-3 boo" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: rgb(92, 92, 92);">Page posts</h5>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <div class="card boo" style="width: 100%;">
+                                            <a href="#" class="d-flex" style="margin-top:3%;margin-left: 3%;">
+                                                <div><img src="iti-logo-1.png" style="width: 40px; height: auto;"></div>
+                                                <div>
+                                                    <p style="color: black; margin-left: 8px;margin-top: 8px;">iti</p>
+                                                </div>
+                                            </a>
+                                            <div class="card-body" style="padding: 0;">
+                                                <p class="card-text" style="font-size: 14px;margin-left: 10px;">Some
+                                                    quick example text to build on the </p>
+                                                <img src="225.jpg" style="width: 100%;">
+                                                <br>
+                                            </div>
+                                            <div class="card-footer d-flex">
+                                                <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                        style="color: black;"><i
+                                                            class="far fa-thumbs-up"></i><br>like</a></div>
+                                                <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                        style="color: black;"><i
+                                                            class="fas fa-comments"></i><br>comment</a></div>
+                                                <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                        style="color: black;"><i class="fas fa-share"></i><br>share</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="card boo" style="width: 100%;">
+                                            <a href="#" class="d-flex" style="margin-top:3%;margin-left: 3%;">
+                                                <div><img src="iti-logo-1.png" style="width: 40px; height: auto;"></div>
+                                                <div>
+                                                    <p style="color: black; margin-left: 8px;margin-top: 8px;">iti</p>
+                                                </div>
+                                            </a>
+                                            <div class="card-body" style="padding: 0;">
+                                                <p class="card-text" style="font-size: 14px;margin-left: 10px;">Some
+                                                    quick example text to build on the </p>
+                                                <img src="225.jpg" style="width: 100%;">
+                                                <br>
+                                            </div>
+                                            <div class="card-footer d-flex">
+                                                <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                        style="color: black;"><i
+                                                            class="far fa-thumbs-up"></i><br>like</a></div>
+                                                <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                        style="color: black;"><i
+                                                            class="fas fa-comments"></i><br>comment</a></div>
+                                                <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                        style="color: black;"><i class="fas fa-share"></i><br>share</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="margin: 0;">
+                        <div style="text-align: center;color: black;"><a onclick="post()">More posts</a></div>
+                    </div>
+                </section>
+                <section id="about" style="display: none;">
+                    <div class="card mt-3 boo" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-subtitle mb-2 text-muted" style="font-size: 14px;">IWAN has been consistently
+                                focused on providing Feel-good neighborhoods in Egypt for over 15 years. Dedicated
+                                nationally across Real Estate Development , Project Management , Architectural Design,
+                                Consultancy and Wooden Handcrafts, IWAN has proven itself a major leader over a varied
+                                amount of projects in the Egyptian market.
+                                <br><br>
+                                IWAN develops feel-good homes that you'd feel comfortable in, and feel-good
+                                neighborhoods. With over a huge expansion over the last 4 years IWAN Developments, is
+                                the proud owner of 5 major compounds in El-Sheikh Zayed area and 6th of October JEERA,
+                                JEWAR, JEDAR, ATRIO, ALMA. combining the Experience and the knowledge of the Real Estate
+                                market ,IWAN's neighborhoods provide a full portfolio of real estate choices from twin
+                                houses , apartments, duplexes , family homes and villas with fully finished option are
+                                available, Iwan developments holds a huge opportunity for investment .
+                            </p>
+                            <br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        Website:
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <a href="https://www.iti.gov.eg/iti/home">https://www.iti.gov.eg/iti/home</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        Email:
+                                    </div>
+                                    <div class="col-sm-8">
+                                        ITIinfo@iti.gov.eg
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3 boo" style="width: 100%;margin-bottom: 18px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Location</h5>
+                            <span class="badge badge-light">Qena</span>
+                            <p class="card-subtitle mb-2 text-muted" style="font-size: 14px;">South Valley University
+                            </p>
+                            <a
+                                href="https://www.google.com/maps/place/26%C2%B011'14.9%22N+32%C2%B044'52.4%22E/@26.1875179,32.7462498,17z/data=!4m14!1m7!3m6!1s0x144eb62eb4d2496f:0x50f240bdb670aa01!2sQena,+Qism+Qena,+Qena,+Qena+Governorate!3b1!8m2!3d26.155061!4d32.7160121!3m5!1s0x0:0x0!7e2!8m2!3d26.1874761!4d32.7478935"><img
+                                    src="iti-qena.png" alt="itiqena" style="width: 100%;"></a>
+
+                            <span class="badge badge-light" style="margin-top: 18px;">Sohag</span>
+                            <p class="card-subtitle mb-2 text-muted" style="font-size: 14px;">Sohag University</p>
+                            <a
+                                href="https://www.google.com/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%B3%D9%88%D9%87%D8%A7%D8%AC+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+-+%D8%A7%D9%84%D9%83%D9%88%D8%A7%D9%85%D9%84%E2%80%AD/@26.4602179,31.6682829,16z/data=!4m5!3m4!1s0x144f573ab4b9af2f:0xe3f8c1dae3a13cb9!8m2!3d26.4616298!4d31.673025"><img
+                                    src="iti-sohag.png" alt="itisohag" style="width: 100%;"></a>
+
+                        </div>
+                    </div>
+                </section>
+                <section id="posts" style="display: none;">
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div class="col-sm-3" style="padding-left: 0;">
+                                <div class="card boo" style="width: 100%;">
+                                    <div class="card-body">
+                                        <img src="iti-logo-1.png" style="width: 70%; margin-left: 15%;">
+                                        <h6 class="card-subtitle mb-2 text-muted"
+                                            style="text-align: center; margin-top: 12px;">ITI</h6>
+                                        <p class="card-text" style="text-align: center; font-size: 12;">27,594 followers
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="card boo" style="width: 100%;">
+                                    <a href="#" class="d-flex" style="margin-top:3%;margin-left: 3%;">
+                                        <div><img src="iti-logo-1.png" style="width: 40px; height: auto;"></div>
+                                        <div>
+                                            <p style="color: black; margin-left: 8px;margin-top: 8px;">iti</p>
+                                        </div>
+                                    </a>
+                                    <div class="card-body" style="padding: 0;">
+                                        <p class="card-text" style="font-size: 14px;margin-left: 10px;">Some quick
+                                            example text to build on the </p>
+                                        <img src="225.jpg" style="width: 100%;">
+                                        <br>
+                                    </div>
+                                    <div class="card-footer d-flex">
+                                        <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                style="color: black;"><i class="far fa-thumbs-up"></i><br>like</a></div>
+                                        <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                style="color: black;"><i class="fas fa-comments"></i><br>comment</a>
+                                        </div>
+                                        <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                style="color: black;"><i class="fas fa-share"></i><br>share</a></div>
+                                    </div>
+                                </div>
+                                <div class="card mt-3 boo" style="width: 100%;">
+                                    <a href="#" class="d-flex" style="margin-top:3%;margin-left: 3%;">
+                                        <div><img src="iti-logo-1.png" style="width: 40px; height: auto;"></div>
+                                        <div>
+                                            <p style="color: black; margin-left: 8px;margin-top: 8px;">iti</p>
+                                        </div>
+                                    </a>
+                                    <div class="card-body" style="padding: 0;">
+                                        <p class="card-text" style="font-size: 14px;margin-left: 10px;">Some quick
+                                            example text to build on the </p>
+                                        <img src="225.jpg" style="width: 100%;">
+                                        <br>
+                                    </div>
+                                    <div class="card-footer d-flex">
+                                        <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                style="color: black;"><i class="far fa-thumbs-up"></i><br>like</a></div>
+                                        <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                style="color: black;"><i class="fas fa-comments"></i><br>comment</a>
+                                        </div>
+                                        <div class="com-post-eng" style="text-align: center;"><a href="#"
+                                                style="color: black;"><i class="fas fa-share"></i><br>share</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section id="people" style="display: none;">
+                    <div class="card mt-3 boo mb-3" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">People you may know</h5>
+                            <div class="container mt-3 ">
+                                <div class="row">
+                                    <div class="col-sm" style=" align-items: center;padding: 0px;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center;width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style=" align-items: center;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center; width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style=" align-items: center;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center;width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-sm" style=" align-items: center;padding: 0px;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center;width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style=" align-items: center;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center; width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style=" align-items: center;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center;width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-sm" style=" align-items: center;padding: 0px;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center;width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style=" align-items: center;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center; width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm" style=" align-items: center;">
+
+                                        <div class="card"
+                                            style="width:100%;height: auto;align-items: center; padding: 5px;">
+                                            <div class="W-100%"><br></div>
+
+
+                                            <img class="card-img-top" src="iti-logo-1.png" alt="Card image"
+                                                style="width:60%;border-radius:50%;">
+                                            <div style="text-align: center;width: 100%;">
+                                                <a href="#" style="color: black;"><strong>mohamed</strong> </a>
+                                                <br>
+                                                <span class="txtcolor">Law at SVU</span>
+                                                <br>
+                                                <div class="W-100%"><br></div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                    style="border-radius: 1.2em; width: 80%;">Connect</button> <br>
+                                                <div class="W-100%"><br></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-4  mt-3">
+                <div class="card  text-white boo">
+                    <div class="card-body">
+                        <img src="225.jpg" style="width: 100%;">
+                    </div>
+                </div>
+
+                <div class="card boo" style="width: 100%;margin-top: 10px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pages people also viewed</h5>
+                        <a class="d-flex" style="margin-top:20px;padding-left: 8px;" href="#">
+                            <div><img src="iti-logo-1.png" alt="ss" class="borderImg"></div>
+                            <div style="margin-left: 8px; display: block; color: black;">
+                                <div style="margin-bottom: 4px;">
+                                    <p style="font-size: 14px; margin-left: 8px;margin-bottom: 0px;">goooooo</h4>
+                                </div>
+                                <div class="s2-text"> <button type="button" class="btn btn-outline-dark"
+                                        style="border-radius: 18px;">Contacts</button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="d-flex" style="margin-top:20px;padding-left: 8px;" href="#">
+                            <div><img src="iti-logo-1.png" alt="ss" class="borderImg"></div>
+                            <div style="margin-left: 8px; display: block; color: black;">
+                                <div style="margin-bottom: 4px;">
+                                    <p style="font-size: 14px; margin-left: 8px;margin-bottom: 0px;">goooooo</h4>
+                                </div>
+                                <div class="s2-text"> <button type="button" class="btn btn-outline-dark"
+                                        style="border-radius: 18px;">Contacts</button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="d-flex" style="margin-top:20px;padding-left: 8px;" href="#">
+                            <div><img src="iti-logo-1.png" alt="ss" class="borderImg"></div>
+                            <div style="margin-left: 8px; display: block; color: black;">
+                                <div style="margin-bottom: 4px;">
+                                    <p style="font-size: 14px; margin-left: 8px;margin-bottom: 0px;">goooooo</h4>
+                                </div>
+                                <div class="s2-text"> <button type="button" class="btn btn-outline-dark"
+                                        style="border-radius: 18px;">Contacts</button>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="d-flex" style="margin-top:20px;padding-left: 8px;" href="#">
+                            <div><img src="iti-logo-1.png" alt="ss" class="borderImg"></div>
+                            <div style="margin-left: 8px; display: block; color: black;">
+                                <div style="margin-bottom: 4px;">
+                                    <p style="font-size: 14px; margin-left: 8px;margin-bottom: 0px;">goooooo</h4>
+                                </div>
+                                <div class="s2-text"> <button type="button" class="btn btn-outline-dark"
+                                        style="border-radius: 18px;">Contacts</button>
+                                </div>
+                            </div>
+                        </a>
+                        <hr style="margin-bottom:4px ;">
+                        <div style="text-align: center;">more</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
